@@ -4,7 +4,7 @@ from http.server import BaseHTTPRequestHandler
 from datetime import datetime
 
 
-# declaring a new subclass called handler that extends BaseHTTPRequestHandler new
+# declaring a new subclass called handler that extends BaseHTTPRequestHandler
 class handler(BaseHTTPRequestHandler):
 
   def do_GET(self):
